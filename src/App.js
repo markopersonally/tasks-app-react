@@ -1,8 +1,8 @@
-import './App.css';
-import TaskPanel from './components/TaskPanel';
+import "./App.css";
+import TaskPanel from "./components/TaskPanel";
 
 function App() {
-  return <TaskPanel/>
+  return <TaskPanel />;
 }
 
 export default App;
