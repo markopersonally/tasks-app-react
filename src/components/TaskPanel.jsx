@@ -21,6 +21,10 @@ const TaskPanel = () => {
     }
   };
 
+  const deleteTask = id => {
+    setTasks(tasks.filter(task => task.id !== id))
+  }
+
   return (
     <form
       onSubmit={handleAddTask}
@@ -35,7 +39,7 @@ const TaskPanel = () => {
       />
       <button className="p-[10px] border-2 rounded-xl">Add Task</button>
       {tasks.map((task) => (
-        <AddTask task={task} key={task.id} /> 
+        <AddTask task={task} key={task.id} deleteTask={deleteTask}/> 
       ))}
     </form>
   );
