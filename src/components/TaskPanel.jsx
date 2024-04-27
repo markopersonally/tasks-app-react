@@ -28,7 +28,7 @@ const TaskPanel = () => {
   return (
     <form
       onSubmit={handleAddTask}
-      className="mt-[120px] mx-auto p-[20px] w-[500px] h-[500px] text-center text-l text-pink-100 font-bold bg-rose-800 rounded-xl overflow-auto"
+      className="mt-[120px] mx-auto p-[20px] w-full md:w-[500px] max-h-[500px] text-center text-l text-pink-100 font-bold bg-rose-800 rounded-xl overflow-auto"
     >
       <h3 className="my-[20px] text-xl">What tasks do you have today?</h3>
       <input
