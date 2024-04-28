@@ -1,6 +1,7 @@
 ## Task App
  Description
- Task App is a responsive web application built using React.js and Tailwind CSS. It allows users to manage their tasks efficiently, providing a simple and intuitive interface for adding, editing, and deleting tasks.
+ Task App is a responsive web application built using React.js and Tailwind CSS. 
+ It allows users to manage their tasks efficiently, providing a simple and intuitive interface for adding, editing, and deleting tasks.
 
 ## Features
  1. Add Task: Easily add new tasks to your list.
@@ -11,12 +12,11 @@
 ## Live Demo
 ## You can check out the live demo of the Task App here https://markopersonally.github.io/tasks-app-react/
 
-## Installation
-
-# Clone this repository.
- Navigate to the project directory.
- Install dependencies by running npm install.
- Start the development server with npm start.
+## Installation:
+ 1. Clone this repository.
+ 2. Navigate to the project directory.
+ 3. Install dependencies by running npm install.
+ 4. Start the development server with npm start.
 
 ## Technologies Used
  React.js
